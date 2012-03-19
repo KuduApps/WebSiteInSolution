@@ -6,7 +6,7 @@ EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SimpleSite", "SimpleSite\", "{FAB7700E-A1C0-41B3-8C5E-7F656DAFF62B}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		ProjectReferences = "{591C43CC-2DD3-41AE-81BE-8377498D5D42}|SomeDummyLibrary.dll;"
+		ProjectReferences = "{591C43CC-2DD3-41AE-81BE-8377498D5D42}|SomeDummyLibrary.dll;{CFD7D5A1-D993-41F8-B394-BA908579B94D}|SomeOtherLibrary.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/SimpleSite"
 		Debug.AspNetCompiler.PhysicalPath = "SimpleSite\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\SimpleSite\"
@@ -25,6 +25,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SimpleSite", "SimpleSite\",
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomeOtherLibrary", "SomeOtherLibrary\SomeOtherLibrary.csproj", "{CFD7D5A1-D993-41F8-B394-BA908579B94D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{FAB7700E-A1C0-41B3-8C5E-7F656DAFF62B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAB7700E-A1C0-41B3-8C5E-7F656DAFF62B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{FAB7700E-A1C0-41B3-8C5E-7F656DAFF62B}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{CFD7D5A1-D993-41F8-B394-BA908579B94D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD7D5A1-D993-41F8-B394-BA908579B94D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD7D5A1-D993-41F8-B394-BA908579B94D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD7D5A1-D993-41F8-B394-BA908579B94D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
