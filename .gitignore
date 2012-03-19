@@ -1,4 +1,6 @@
-bin
+*.pdb
+*.dll
+!/lib/*
 obj
 *.user
 *.suo
